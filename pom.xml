@@ -18,7 +18,7 @@
         <artifact.scala.version>${scala.major.version}</artifact.scala.version>
         <scala-maven-plugin.version>4.4.0</scala-maven-plugin.version>
 
-        <spark.version>3.2.1</spark.version>
+        <spark.version>3.3.1</spark.version>
     </properties>
 
     <name>deequ</name>
@@ -273,7 +273,7 @@
                         <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License, Version 2.0</licenseFamilyName>
-                            <notes></notes>
+                            <notes/>
                             <patterns>
                                 <pattern>Apache License, Version 2.0</pattern>
                                 <pattern>http://aws.amazon.com/apache2.0/</pattern>
